@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        (function (w,d,s,o,f,js,fjs) {
+            w['EBChatWidget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };            
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'ebChat', 'https://enghouse.elementblue.com/bundle.js'));
+        ebChat('init', { delay: 500, openExpanded: true });        
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
